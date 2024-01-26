@@ -1,22 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Pikachu from './componentes/Pikachu'
+import Bulbasaur from './componentes/Bulbasaur'
+import Charmander from './componentes/Charmander'
+import Squirtle from './componentes/Squirtle';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="Home">
+        <Charmander></Charmander>
+        <Pikachu></Pikachu>
+        <Bulbasaur></Bulbasaur>
+        <Squirtle></Squirtle>
       </header>
     </div>
   );
