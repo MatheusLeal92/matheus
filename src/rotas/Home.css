@@ -1,5 +1,5 @@
 .Home {
-  background-image: url("../src/imagens/grass-wallpaper.jpg");
+  background-image: url("../imagens/grass-wallpaper.jpg");
   min-height: 100vh;
   display: flex;
   align-items: center;
