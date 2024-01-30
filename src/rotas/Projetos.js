@@ -1,5 +1,5 @@
 import './Home.css';
-import TextoSobreMim from '../componentes/TextoSobreMim'
+import TextoSobreMim from '../componentes/TextoSobre'
 import Header from '../componentes/Header';
 import styled from 'styled-components';
 

@@ -17,7 +17,7 @@ const Opcao = styled.li`
     min-width: 120px;
 `
 
-const textoOpcoes = ['SOBRE MIM', 'SKILLS', 'PROJETOS', 'CONTATO']
+const textoOpcoes = ['SOBRE', 'SKILLS', 'PROJETOS', 'CONTATO']
 
 function OpcoesHeader() {
     return (

@@ -1,6 +1,7 @@
 import './Home.css';
-import TextoSobreMim from '../componentes/TextoSobreMim'
+import TextoSobre from '../componentes/TextoSobre'
 import Header from '../componentes/Header';
+import TituloDaPagina from '../componentes/TituloDaPagina'
 import styled from 'styled-components';
 
 const SiteContainer = styled.div`
@@ -13,7 +14,8 @@ function Home() {
   return (
     <SiteContainer>
         <Header />
-        <TextoSobreMim></TextoSobreMim>
+        <TituloDaPagina>Skills</TituloDaPagina>
+        <TextoSobre></TextoSobre>
     </SiteContainer>
   );
 }
