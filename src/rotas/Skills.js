@@ -1,7 +1,7 @@
 import './Home.css';
-import TextoSobre from '../componentes/TextoSobre'
+import TituloDaPagina from '../componentes/TituloDaPagina';
 import Header from '../componentes/Header';
-import TituloDaPagina from '../componentes/TituloDaPagina'
+import Skills from '../componentes/Skills'
 import styled from 'styled-components';
 
 const SiteContainer = styled.div`
@@ -15,7 +15,7 @@ function Home() {
     <SiteContainer>
         <Header />
         <TituloDaPagina>Skills</TituloDaPagina>
-        <TextoSobre></TextoSobre>
+        <Skills></Skills>
     </SiteContainer>
   );
 }

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fontes/Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+
+#TextoSobre {
+    text-align: center;
+    padding-left: 1vw;
+    margin: 0;
+  }

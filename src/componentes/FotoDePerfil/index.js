@@ -2,12 +2,14 @@ import fotoDePerfil from '../../imagens/FotoDePerfil.png';
 import styled from 'styled-components';
 
 const FotoContainer = styled.div`
-  display: flex;
-  font-size: 30px;
+    display: flex;
+    justify-content: left;
+    align-itens: center;
+    width: 20vw;
 `
 
 const FotoImage = styled.img`
-  margin-right: 10px;
+    width: 15vw;
 `
 
 function FotoDePerfil() {

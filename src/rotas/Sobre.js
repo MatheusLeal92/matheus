@@ -8,20 +8,24 @@ import TituloDaPagina from '../componentes/TituloDaPagina';
 const SiteContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: #FFF47E;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 `
-
+const SobreContainer = styled.div`
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
 
 function Home() {
   return (
     <SiteContainer>
       <Header />
       <TituloDaPagina>Sobre</TituloDaPagina>
-      <FotoDePerfil></FotoDePerfil>
-      <TextoSobre></TextoSobre>
+      <SobreContainer>
+        <FotoDePerfil></FotoDePerfil>
+        <TextoSobre></TextoSobre>
+      </SobreContainer>
     </SiteContainer>
   );
 }

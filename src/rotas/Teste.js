@@ -1,4 +1,5 @@
 import './Home.css';
+import './Teste.css';
 import TituloDaPagina from '../componentes/TituloDaPagina';
 import Header from '../componentes/Header';
 import styled from 'styled-components';
@@ -13,7 +14,7 @@ function Home() {
   return (
     <SiteContainer>
         <Header />
-        <TituloDaPagina>Projetos</TituloDaPagina>
+        <TituloDaPagina className='testeCor'>Teste</TituloDaPagina>
     </SiteContainer>
   );
 }

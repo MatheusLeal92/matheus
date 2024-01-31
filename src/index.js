@@ -9,6 +9,7 @@ import Sobre from './rotas/Sobre'
 import Skills from './rotas/Skills'
 import Projetos from './rotas/Projetos'
 import Contato from './rotas/Contato'
+import Teste from './rotas/Teste'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -41,6 +42,7 @@ root.render(
         <Route path="/skills" element={<Skills />} />
         <Route path="/projetos" element={<Projetos />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/teste" element={<Teste />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

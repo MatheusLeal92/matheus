@@ -1,11 +1,13 @@
-import './estilo.css'
 import squirtle from '../../imagens/squirtle.png'
+import { Link } from "react-router-dom"
 
 function Squirtle() {
     return (
-        <div className='inicial-home'>
+        <Link className='inicial-home' onclick="mudaCor()" to="/sobre">
             <img src={squirtle} alt='squirtle' />
-        </div>
+        </Link>
+
+
     )
 }
 
