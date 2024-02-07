@@ -15,7 +15,7 @@ function Home() {
   return (
     <SiteContainer>
         <Header />
-        <TituloDaPagina>Contato</TituloDaPagina>
+        <TituloDaPagina className='titulo'>Contato</TituloDaPagina>
         <Contatos />
     </SiteContainer>
   );

@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFF47E;
 }
 
 code {
@@ -14,3 +13,71 @@ code {
 }
 
 a:link {text-decoration: none;}
+
+[data-pokemon="charmander"] {
+  background-color: #FFD67C;
+
+  header {
+    background-color: #FF9442;
+  }
+
+  header p {
+    color: #184A31;
+  }
+
+  p, .titulo {
+    color: #E83900;
+  }
+}
+
+[data-pokemon="pikachu"] {
+  background-color: #F6E653;
+  
+  header {
+    background-color: #302B27;
+  }
+
+  header p {
+    color: #F6E653;
+  }
+
+  p, .titulo {
+    color: #9D5101;
+  }
+}
+
+[data-pokemon="bulbasaur"] {
+  background-color: #8ECEAC;
+
+  header {
+    background-color: #377755;
+  }
+
+  header p {
+    color: #73C523;
+  }
+
+  p, .titulo {
+    color: #FF6C64;
+  }
+
+}
+
+[data-pokemon="squirtle"] {
+  background-color: #FFF47E;
+
+  header {
+    background-color: #93C3D9;
+  }
+
+  header p {
+    color: #A16B2F;
+  }
+
+  p, .titulo {
+    color: #A16B2F;
+  }
+
+}
+
+

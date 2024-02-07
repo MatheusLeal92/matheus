@@ -3,7 +3,9 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  padding-top: 15vh;
+  
 }
 
 .inicial-home img{
@@ -14,4 +16,8 @@
 
 .inicial-home :hover {
   transform: scale(1.1);
+}
+
+.pokemon {
+  display: flex;
 }

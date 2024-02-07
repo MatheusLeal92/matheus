@@ -9,7 +9,6 @@ import Sobre from './rotas/Sobre'
 import Skills from './rotas/Skills'
 import Projetos from './rotas/Projetos'
 import Contato from './rotas/Contato'
-import Teste from './rotas/Teste'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -35,14 +34,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <GlobalStyle />
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projetos" element={<Projetos />} />
         <Route path="/contato" element={<Contato />} />
-        <Route path="/teste" element={<Teste />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

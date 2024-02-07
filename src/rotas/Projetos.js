@@ -6,14 +6,13 @@ import styled from 'styled-components';
 const SiteContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: #FFF47E;
 `
 
 function Home() {
   return (
     <SiteContainer>
         <Header />
-        <TituloDaPagina>Projetos</TituloDaPagina>
+        <TituloDaPagina className='titulo'>Projetos</TituloDaPagina>
     </SiteContainer>
   );
 }

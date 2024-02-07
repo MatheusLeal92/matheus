@@ -5,7 +5,6 @@ const TextoSobreContainer = styled.div`
   width: 50vw;
   font-size: 2.8vh;
   font-family: Montserrat;
-  color: #A16B2F;
 `
 
 function TextoSobre() {
