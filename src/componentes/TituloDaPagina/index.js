@@ -7,7 +7,8 @@ import styled from 'styled-components';
     font-size: 30px;
     justify-content: center;
     font-weight: bold;
-    margin: 5vh 0;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
 `
 
 export default TituloDaPagina

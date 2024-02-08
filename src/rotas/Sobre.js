@@ -1,8 +1,10 @@
 import './Home.css';
 import TituloDaPagina from '../componentes/TituloDaPagina';
+import Line from '../componentes/Line';
 import FotoDePerfil from '../componentes/FotoDePerfil'
 import TextoSobre from '../componentes/TextoSobre'
 import Header from '../componentes/Header';
+import Footer from '../componentes/Footer';
 import styled from 'styled-components';
 
 
@@ -21,10 +23,12 @@ function Home() {
     <SiteContainer>
       <Header />
       <TituloDaPagina className='titulo'>Sobre</TituloDaPagina>
+      <Line />
       <SobreContainer>
         <FotoDePerfil></FotoDePerfil>
         <TextoSobre></TextoSobre>
       </SobreContainer>
+      <Footer />
     </SiteContainer>
   );
 }

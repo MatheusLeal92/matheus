@@ -21,7 +21,7 @@ const Skill = styled.div`
   align-items: center;
   justify-content: center;
   margin: 2vh 0;
-  font-size: 3vh;
+  font-size: calc(12px + 0.5vw);
   font-weight: bold;
   color: #A16B2F;
 `

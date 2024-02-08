@@ -1,14 +1,14 @@
 import './Home.css';
 import TituloDaPagina from '../componentes/TituloDaPagina';
 import Contatos from '../componentes/Contato'
+import Line from '../componentes/Line';
 import Header from '../componentes/Header';
+import Footer from '../componentes/Footer';
 import styled from 'styled-components';
 
 const SiteContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  font-size: 2.8vh;
-  font-family: Montserrat;
 `
 
 function Home() {
@@ -16,7 +16,9 @@ function Home() {
     <SiteContainer>
         <Header />
         <TituloDaPagina className='titulo'>Contato</TituloDaPagina>
+        <Line />
         <Contatos />
+        <Footer />
     </SiteContainer>
   );
 }

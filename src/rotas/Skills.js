@@ -1,6 +1,8 @@
 import './Home.css';
 import TituloDaPagina from '../componentes/TituloDaPagina';
+import Line from '../componentes/Line';
 import Header from '../componentes/Header';
+import Footer from '../componentes/Footer';
 import Skills from '../componentes/Skills'
 import styled from 'styled-components';
 
@@ -14,7 +16,9 @@ function Home() {
     <SiteContainer>
         <Header />
         <TituloDaPagina className='titulo'>Skills</TituloDaPagina>
+        <Line />
         <Skills></Skills>
+        <Footer />
     </SiteContainer>
   );
 }

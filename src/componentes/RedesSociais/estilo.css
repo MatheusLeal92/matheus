@@ -1,0 +1,31 @@
+.Logo {
+  height: 10vh;
+  margin: 0 1vw;
+  display: flex;
+ } 
+
+
+[data-pokemon="charmander"] {
+    a, a:-webkit-any-link{
+        fill: #E83900;
+     }
+}
+  
+[data-pokemon="pikachu"] {  
+    a, a:-webkit-any-link{
+        fill: #9D5101;
+     }
+}
+  
+[data-pokemon="bulbasaur"] {
+    a, a:-webkit-any-link{
+        fill: #FF6C64;
+     }
+}
+  
+[data-pokemon="squirtle"] {   
+    a, a:-webkit-any-link{
+        fill: #A16B2F;
+     }
+}
+

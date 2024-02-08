@@ -2,9 +2,10 @@ import styled from 'styled-components';
 import './estilo.css'
 
 const TextoSobreContainer = styled.div`
-  width: 50vw;
-  font-size: 2.8vh;
+  width: 40vw;
+  font-size: calc(12px + 0.5vw);
   font-family: Montserrat;
+  line-height: 3vh;
 `
 
 function TextoSobre() {
