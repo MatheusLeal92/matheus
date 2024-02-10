@@ -10,7 +10,7 @@ function Home() {
   return (
       <header className="Home">
         <div>
-          <TituloDaHome>Escolha o seu Pokémon inicial</TituloDaHome> 
+          <TituloDaHome/> 
         </div>
         <div className='pokemon'>
         <Charmander></Charmander>

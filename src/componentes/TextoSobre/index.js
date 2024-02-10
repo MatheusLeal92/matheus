@@ -5,7 +5,6 @@ const TextoSobreContainer = styled.div`
   width: 40vw;
   font-size: calc(12px + 0.5vw);
   font-family: Montserrat;
-  line-height: 3vh;
 `
 
 function TextoSobre() {

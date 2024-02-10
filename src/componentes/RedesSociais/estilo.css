@@ -6,25 +6,26 @@
 
 
 [data-pokemon="charmander"] {
-    a, a:-webkit-any-link{
+    .Logo {
         fill: #E83900;
      }
 }
   
 [data-pokemon="pikachu"] {  
-    a, a:-webkit-any-link{
+    .Logo {
         fill: #9D5101;
+        stroke: #9D5101;
      }
 }
   
 [data-pokemon="bulbasaur"] {
-    a, a:-webkit-any-link{
-        fill: #FF6C64;
+    .Logo {
+        fill: #377755;
      }
 }
   
 [data-pokemon="squirtle"] {   
-    a, a:-webkit-any-link{
+    .Logo {
         fill: #A16B2F;
      }
 }

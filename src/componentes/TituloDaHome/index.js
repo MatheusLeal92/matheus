@@ -1,13 +1,26 @@
 import styled from 'styled-components';
+import TituloHomeImagem from '../../imagens/pokemon-fonte.png'
 
 
-  const TituloDaHome = styled.div`
+const TituloHomeContainer = styled.div`
     display: flex;
-    font-size: 30px;
-    justify-content: center;
-    color: #A16B2F;
-    font-weight: bold;
-    margin: 3vh 0;
+    align-itens: center;
 `
+
+
+const TituloHome = styled.img`
+  width: calc(150px + 20vw);
+`
+
+function TituloDaHome() {
+    return (
+        <TituloHomeContainer>
+          <TituloHome
+            src={TituloHomeImagem}
+            alt='Titulo da Home'
+        />
+        </TituloHomeContainer>
+    )
+}
 
 export default TituloDaHome

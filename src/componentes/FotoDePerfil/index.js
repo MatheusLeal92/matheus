@@ -5,6 +5,7 @@ const FotoContainer = styled.div`
     display: flex;
     justify-content: left;
     align-itens: center;
+    margin-top: -5vh;
     width: 20vw;
 `
 

@@ -40,7 +40,7 @@ a {
   }
 
   header p:hover{
-    color:#E83900;
+    color:#FFFFFF;
   }
 
   p, .titulo {
@@ -64,11 +64,11 @@ a {
     transition-duration: 0.4s;
   }
 
-  header p:hover{
+  header p:hover, .titulo {
     color:#E65A41;
   }
 
-  p, .titulo {
+  p {
     color: #9D5101;
   }
 
@@ -116,7 +116,7 @@ a {
   }
 
   header p:hover{
-    color:#FFF47E;
+    color:#FFFFFF;
   }
 
   p, .titulo {
@@ -130,3 +130,9 @@ a {
 }
 
 
+@media only screen and (max-width: 787px) {
+	body {
+		background-color: #302B27;
+	}
+
+}

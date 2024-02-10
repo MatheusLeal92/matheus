@@ -3,14 +3,14 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  padding-top: 15vh;
   
 }
 
 .inicial-home img{
   border: solid 2px #ffffff;
-  margin: 10px;
+  margin: 1vw 1vh;
   transition-duration: 0.5s;
 }
 
@@ -20,4 +20,15 @@
 
 .pokemon {
   display: flex;
+}
+
+@media only screen and (max-width: 787px) {
+  .pokemon {
+    display: block;
+    width: 61vw;
+  }
+
+  .inicial-home img {
+    width: 25vw;
+  }
 }

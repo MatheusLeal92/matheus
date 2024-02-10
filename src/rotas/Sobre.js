@@ -10,7 +10,7 @@ import styled from 'styled-components';
 
 const SiteContainer = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 `
 const SobreContainer = styled.div`
   display: flex;
