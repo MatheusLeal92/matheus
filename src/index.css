@@ -81,11 +81,11 @@ a {
   background-color: #8ECEAC;
 
   header {
-    background-color: #377755;
+    background-color: #73C523;
   }
 
   header p {
-    color: #73C523;
+    color: #377755;
     transition-duration: 0.4s;
   }
 
@@ -94,7 +94,7 @@ a {
   }
 
   p, .titulo {
-    color: #FF6C64;
+    color: #377755;
   }
 
   footer {

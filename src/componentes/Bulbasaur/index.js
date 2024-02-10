@@ -1,4 +1,3 @@
-import './estilo.css'
 import bulbasaur from '../../imagens/bulbasaur.png'
 import { Link } from "react-router-dom"
 

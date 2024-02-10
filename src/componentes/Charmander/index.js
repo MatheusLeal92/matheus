@@ -1,4 +1,3 @@
-import './estilo.css'
 import charmander from '../../imagens/charmander.png'
 import { Link } from "react-router-dom"
 

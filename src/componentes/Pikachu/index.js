@@ -1,4 +1,3 @@
-import './estilo.css'
 import pikachu from '../../imagens/pikachu.png'
 import { Link } from "react-router-dom"
 
