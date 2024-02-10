@@ -14,6 +14,10 @@ const EscolhaNovamenteContainer = styled.div`
 
 const EscolhaNovamenteIcone = styled.img`
   width: 20vw;
+
+  @media only screen and (max-width: 787px) {
+    width:40vh;
+  }
 `
 
 function EscolhaNovamente() {

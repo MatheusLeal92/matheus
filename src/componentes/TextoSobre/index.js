@@ -5,6 +5,10 @@ const TextoSobreContainer = styled.div`
   width: 40vw;
   font-size: calc(12px + 0.5vw);
   font-family: Montserrat;
+
+  @media only screen and (max-width: 787px) {
+    width: 75vw;
+  }
 `
 
 function TextoSobre() {

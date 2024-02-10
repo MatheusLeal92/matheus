@@ -13,7 +13,14 @@ const HeaderContainer = styled.header`
     display: flex;
     justify-content: center;
     font-family: Montserrat;
-    font-size: 20px;
+
+    @media only screen and (max-width: 787px) {
+        display: block;
+
+        ul {
+            margin-block-start: 0;
+        }
+      }
 `
 
 function Header() {

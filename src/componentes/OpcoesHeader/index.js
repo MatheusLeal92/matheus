@@ -6,7 +6,6 @@ const Opcoes = styled.ul`
 `
 
 const Opcao = styled.li`
-    color: #A16B2F;
     font-weight: bold;
     display: flex;
     justify-content: center;

@@ -7,10 +7,20 @@ const FotoContainer = styled.div`
     align-itens: center;
     margin-top: -5vh;
     width: 20vw;
+
+    @media only screen and (max-width: 787px) {
+        width: 100vw;
+        justify-content: center;
+        margin: 0 0 5vh 0;
+      }
 `
 
 const FotoImage = styled.img`
     width: 15vw;
+
+    @media only screen and (max-width: 787px) {
+        width:25vh;
+      }
 `
 
 function FotoDePerfil() {
