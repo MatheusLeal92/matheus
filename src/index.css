@@ -128,11 +128,3 @@ a {
   }
 
 }
-
-
-@media only screen and (max-width: 787px) {
-	body {
-		background-color: #302B27;
-	}
-
-}
