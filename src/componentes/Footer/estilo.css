@@ -1,0 +1,28 @@
+[data-pokemon="charmander"] {
+    footer .Logo {
+        fill: #FFD67C;
+        stroke: #FFD67C;
+     }
+}
+  
+[data-pokemon="pikachu"] {  
+    footer .Logo {
+        fill: #F6E653;
+        stroke: #F6E653;
+     }
+}
+  
+[data-pokemon="bulbasaur"] {
+    footer .Logo {
+        fill: #73C523;
+        stroke: #73C523;
+     }
+}
+  
+[data-pokemon="squirtle"] {   
+    footer .Logo {
+        fill: #FFF47E;
+        stroke: #FFF47E;
+     }
+}
+

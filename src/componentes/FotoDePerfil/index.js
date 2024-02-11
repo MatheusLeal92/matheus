@@ -5,7 +5,7 @@ const FotoContainer = styled.div`
     display: flex;
     justify-content: left;
     align-itens: center;
-    margin-top: -5vh;
+    margin-top: -15vh;
     width: 20vw;
 
     @media only screen and (max-width: 787px) {

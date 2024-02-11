@@ -1,5 +1,3 @@
-import './estilo.css'
-
 export default function EmailSVG ({ fillColor }) {
     return (
 <svg fill={fillColor} className="Logo" width="48px" height="48px" version="1.1" id="Capa_1" 
