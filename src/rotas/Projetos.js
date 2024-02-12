@@ -4,6 +4,7 @@ import Line from '../componentes/Line';
 import Header from '../componentes/Header';
 import Footer from '../componentes/Footer';
 import styled from 'styled-components';
+import Projetos from '../componentes/Projetos';
 
 const SiteContainer = styled.div`
   width: 100vw;
@@ -16,6 +17,7 @@ function Home() {
         <Header />
         <TituloDaPagina className='titulo'>Projetos</TituloDaPagina>
         <Line />
+        <Projetos />
         <Footer />
     </SiteContainer>
   );
