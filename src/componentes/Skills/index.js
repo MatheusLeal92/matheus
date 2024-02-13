@@ -2,6 +2,7 @@ import HTMLCSSLogo from '../../imagens/htmlcss.png'
 import JavaScriptLogo from '../../imagens/javascript.png'
 import ReactLogo from '../../imagens/react.png'
 import NodeLogo from '../../imagens/node.png'
+import TailwindLogo from '../../imagens/tailwind.svg'
 import styled from 'styled-components';
 
 const SkillsContainer = styled.div`
@@ -12,7 +13,7 @@ const SkillsContainer = styled.div`
 `
 
 const SkillsLogo = styled.img`
-  height: 10vh;
+  height: 5vh;
   margin: 0 2vw;
 `
 
@@ -57,6 +58,13 @@ function Skills() {
                 alt='NodeLogo'
             />
             <p>- Node.js</p>
+        </Skill>
+        <Skill>
+          <SkillsLogo
+            src={TailwindLogo}
+            alt='Tailwind Logo'
+            />
+            <p>- TailwindCSS</p>
         </Skill>
         </SkillsContainer>
     )
