@@ -8,12 +8,18 @@ const EscolhaNovamenteContainer = styled.div`
   align-items: center;
   height: 100%;
   padding: 0 5px;
-  cursor: pointer;
   min-width: 120px;
+
 `
 
 const EscolhaNovamenteIcone = styled.img`
-  width: 20vw;
+  width: 17vw;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  
+  &:hover {
+    transform: scale(1.1);
+  }
 
   @media only screen and (max-width: 787px) {
     width:40vh;
@@ -22,13 +28,15 @@ const EscolhaNovamenteIcone = styled.img`
 
 function EscolhaNovamente() {
     return (
-        <Link to="/">
-        <EscolhaNovamenteContainer id='clickme'>
-          <EscolhaNovamenteIcone
-          src={EscolhaNovamenteImagem}
-          alt='Escolha novamente'/>
+        <EscolhaNovamenteContainer>
+          <Link to="/">
+            <EscolhaNovamenteIcone
+            id='clickme'
+            className='EscolhaNovamente'
+            src={EscolhaNovamenteImagem}
+            alt='Escolha novamente'/>
+          </Link>
         </EscolhaNovamenteContainer>
-        </Link>
     )
 }
 
