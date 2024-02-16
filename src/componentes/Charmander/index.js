@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Charmander() {
     return (
         <Link className='inicial-home' to="/sobre" onClick={CharmanderCor}>
-            <img src= {charmander} alt='charmander' />
+            <img src= {charmander} alt='charmander'/>
         </Link>
     )
 }
