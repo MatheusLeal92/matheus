@@ -11,6 +11,7 @@ const FooterContainer = styled.footer`
     flex-direction: column;
     position: absolute;
     bottom: 0;
+    
 `
 
 const Contato = styled.a`
@@ -29,6 +30,7 @@ const ContatosFooter = styled.div`
     justify-content: right;
     font-family: Montserrat;
     font-size: 20px;
+    z-index: 3;
     
     .Logo {
         height: 5vh;

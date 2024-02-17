@@ -106,3 +106,15 @@
     70% { transform: scale(.9); }
     100% { transform: scale(1); }
   }
+
+  .hinge {
+    animation: hinge 5s ease;
+    visibility: hidden;
+  }
+  @keyframes hinge {
+    0% { transform: rotate(0); transform-origin: bottom right; animation-timing-function: ease-in-out; }  
+    80%, 90% { visibility: visible ; transform: rotate(60deg); transform-origin: bottom right; animation-timing-function: ease-in-out; }  
+    85% { transform: rotate(30deg); transform-origin: bottom right; animation-timing-function: ease-in-out; } 
+    95% { transform: rotate(30deg) translateY(0); opacity: 1; transform-origin: bottom right; animation-timing-function: ease-in-out; } 
+    100% { transform: translateY(10vh); opacity: 0; }
+  }
