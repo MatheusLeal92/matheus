@@ -1,0 +1,108 @@
+.fadeInDown {
+    position: relative;
+    -webkit-animation: floatFadeIn 0.75s ease-out;
+    animation: floatFadeIn 0.75s ease-out;
+  }
+  @-webkit-keyframes floatFadeIn {
+    0% {
+        bottom: 20px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+  }
+  @keyframes floatFadeIn {
+    0% {
+        bottom: 25px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+  }
+  
+
+  .dropDown {
+    position: relative;
+    -webkit-animation: floatDropDown 2s ease-out;
+    animation: floatDropDown 2.5s ease-in;
+  }
+  @-webkit-keyframes floatDropDown {
+    0% {
+      transform: translate(0, -400%);
+    }
+    100% {
+      transform: translate(0, 0%);
+    }
+  }
+  @keyframes floatDropDown {
+    0% {
+      transform: translate(0, -400%);
+    }
+    100% {
+      transform: translate(0, 0%);
+    }
+  }
+  
+  @media only screen and (max-width: 787px) {
+    .pokemon {
+      display: block;
+      width: 61vw;
+    }
+  
+    .inicial-home img {
+      width: 25vw;
+    }
+  }
+  
+
+  .bounce-in-right {
+    animation: bounce-in-right 3s ease;
+  }
+  @keyframes bounce-in-right {
+    0% {
+      opacity: 0;
+      transform: translateY(-10000px);
+    }
+    60% {
+      opacity: 1;
+      transform: translateY(35px);
+    }
+    75% { transform: translateY(-15px); }
+    85% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+  }
+  
+
+  .hithere {
+    animation: hithere 5s linear infinite;
+  }
+  @keyframes hithere {
+    0% { transform: scale(1); }
+    83% { transform: scale(1); }
+    87% { transform: scale(1.1); }
+    89%, 91% { transform: rotate(-5deg) scale(1.1); }
+    93% { transform: rotate(5deg) scale(1.1); }
+    95% { transform: rotate(0deg) scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+
+  .bounce-in {
+    animation: bounce-in 1.5s ease;
+  }
+  @keyframes bounce-in {
+    0% {
+      opacity: 0;
+      transform: scale(.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    70% { transform: scale(.9); }
+    100% { transform: scale(1); }
+  }

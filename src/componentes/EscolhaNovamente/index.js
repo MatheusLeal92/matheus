@@ -9,7 +9,14 @@ const EscolhaNovamenteContainer = styled.div`
   height: 100%;
   padding: 0 5px;
   min-width: 120px;
+  
+  &:hover {
+  animation: none;
+  }
 
+  @media only screen and (max-width: 787px) {
+    padding-top: 2vh;
+  }
 `
 
 const EscolhaNovamenteIcone = styled.img`
@@ -28,7 +35,7 @@ const EscolhaNovamenteIcone = styled.img`
 
 function EscolhaNovamente() {
     return (
-        <EscolhaNovamenteContainer>
+        <EscolhaNovamenteContainer className='hithere'>
           <Link to="/">
             <EscolhaNovamenteIcone
             id='clickme'

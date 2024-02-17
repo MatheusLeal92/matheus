@@ -47,7 +47,7 @@ a {
     color: #E83900;
   }
 
-  footer {
+  .contatosFooter {
     background-color: #FF9442;
   }
 }
@@ -72,7 +72,7 @@ a {
     color: #9D5101;
   }
 
-  footer {
+  .contatosFooter {
     background-color: #9D5101;
   }
 }
@@ -97,7 +97,7 @@ a {
     color: #377755;
   }
 
-  footer {
+  .contatosFooter {
     background-color: #377755;
   }
 
@@ -123,7 +123,7 @@ a {
     color: #A16B2F;
   }
 
-  footer {
+  .contatosFooter {
     background-color: #A16B2F;
   }
 

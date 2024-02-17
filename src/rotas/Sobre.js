@@ -24,7 +24,7 @@ const SobreContainer = styled.div`
 
 function Home() {
   return (
-    <SiteContainer className='fadeInDown'>
+    <SiteContainer>
       <Header />
       <TituloDaPagina className='titulo'>Sobre</TituloDaPagina>
       <Line />

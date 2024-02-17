@@ -5,6 +5,7 @@ import TituloHomeImagem from '../../imagens/pokemon-fonte.png'
 const TituloHomeContainer = styled.div`
     display: flex;
     align-itens: center;
+    margin-bottom: 2vh;
 `
 
 

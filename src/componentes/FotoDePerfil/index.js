@@ -7,16 +7,7 @@ const FotoContainer = styled.div`
     align-itens: center;
     margin-top: -15vh;
     width: 20vw;
-    animation: fade 1s ease-in;
-
-    @keyframes fade {
-        0%{
-            opacity:0;
-        }
-        100%{
-            opacity:1;
-        }
-    }
+    
 
     @media only screen and (max-width: 787px) {
         width: 100vw;
@@ -35,7 +26,7 @@ const FotoImage = styled.img`
 
 function FotoDePerfil() {
     return (
-        <FotoContainer>
+        <FotoContainer className='bounce-in'>
           <FotoImage
             src={fotoDePerfil}
             alt='Foto de Perfil'
