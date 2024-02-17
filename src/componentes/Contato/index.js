@@ -21,7 +21,7 @@ const Contato = styled.a`
 function Contatos() {
     return (
 
-        <ContatosContainer>
+        <ContatosContainer className='fadeInDown'>
         <Contato href="https://wa.me/5548988778269" target="_blank">
             <WhatsAppLogo />
             <p>(48) 98877-8269</p>

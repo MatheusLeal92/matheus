@@ -22,7 +22,7 @@ const Projeto = styled.a`
 function Projetos() {
     return (
 
-        <ProjetosContainer>
+        <ProjetosContainer className='fadeInDown'>
         <Projeto href="https://bhaskara-calculator.vercel.app/" target="_blank">
             <p>Bhaskara Calculator</p>
         </Projeto>

@@ -30,7 +30,7 @@ const Skill = styled.div`
 function Skills() {
     return (
 
-        <SkillsContainer>
+        <SkillsContainer className='fadeInDown'>
         <Skill>
           <SkillsLogo
             src={HTMLCSSLogo}
