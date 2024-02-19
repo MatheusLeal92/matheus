@@ -1,11 +1,12 @@
 import styled from 'styled-components';
-import { Link } from "react-router-dom"
 import EscolhaNovamenteImagem from '../../imagens/escolha-novamente.png'
+import MenuEscolhaNovamente from '../MenuEscolhaNovamente';
 
 const EscolhaNovamenteContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100%;
   padding: 0 5px;
   min-width: 120px;
@@ -33,18 +34,28 @@ const EscolhaNovamenteIcone = styled.img`
   }
 `
 
+const Button = styled.button`
+  border: none;
+  background: none;
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+`
+
 function EscolhaNovamente() {
     return (
         <EscolhaNovamenteContainer className='hithere'>
-          <Link to="/">
+          <Button onclick='hideAndShow()'>
             <EscolhaNovamenteIcone
             id='clickme'
             className='EscolhaNovamente'
             src={EscolhaNovamenteImagem}
             alt='Escolha novamente'/>
-          </Link>
+          </Button>
+          <MenuEscolhaNovamente />
         </EscolhaNovamenteContainer>
     )
 }
+<button id='toggle-button' onclick='hideAndShow()'>Show</button>
 
 export default EscolhaNovamente

@@ -19,17 +19,13 @@ const Opcao = styled.li`
 const textoOpcoes = ['SOBRE', 'SKILLS', 'PROJETOS', 'CONTATO']
 
 function OpcoesHeader() {
-    
     return (
         <Opcoes>
             { textoOpcoes.map( (texto) => (
                 <Link to={`/${texto.toLowerCase()}`}><Opcao><p>{texto}</p></Opcao></Link>
             ) ) }
         </Opcoes>
-
-        
     )
 }
-
 
 export default OpcoesHeader
