@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import './estilo.css'
 import pikachu from '../../imagens/pikachu-icone.webp'
 import bulbasaur from '../../imagens/bulbasaur-icone.webp'
 import charmander from '../../imagens/charmander-icone.webp'
@@ -7,11 +6,21 @@ import squirtle from '../../imagens/squirtle-icone.webp'
 import { Link } from "react-router-dom"
 
 const MenuEscolhaNovamente = styled.div `
-    display: none;    
+
 
     img {
         height: 5vh;
+        margin: 0 0.5vw;
+        border-radius: 15%;
+        border: solid 1px gray;
     }
+
+    @media only screen and (max-width: 787px) {
+        img{
+        width: 15vw;
+        height: 7.5vh;
+        margin: 0 1vw;
+      }
 `
 
 const html = document.querySelector('html')
@@ -19,7 +28,6 @@ const html = document.querySelector('html')
 function menuEscolhaNovamente() {
 return(
     <MenuEscolhaNovamente>
-        
         <Link className='inicial-home' onClick={CharmanderCor}>
             <img src= {charmander} alt='charmander'/>
         </Link>

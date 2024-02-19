@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 import EscolhaNovamenteImagem from '../../imagens/escolha-novamente.png'
 import MenuEscolhaNovamente from '../MenuEscolhaNovamente';
+import { useState } from 'react';
 
 const EscolhaNovamenteContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100%;
-  padding: 0 5px;
   min-width: 120px;
+  
   
   &:hover {
   animation: none;
@@ -34,28 +34,21 @@ const EscolhaNovamenteIcone = styled.img`
   }
 `
 
-const Button = styled.button`
-  border: none;
-  background: none;
-  width: fit-content;
-  height: fit-content;
-  padding: 0;
-`
-
 function EscolhaNovamente() {
+  const [show,setShow]=useState(true)
     return (
         <EscolhaNovamenteContainer className='hithere'>
-          <Button onclick='hideAndShow()'>
             <EscolhaNovamenteIcone
-            id='clickme'
+            onClick={()=>setShow(!show)}
             className='EscolhaNovamente'
             src={EscolhaNovamenteImagem}
             alt='Escolha novamente'/>
-          </Button>
-          <MenuEscolhaNovamente />
+          {
+          show?<MenuEscolhaNovamente />:null
+          }
         </EscolhaNovamenteContainer>
     )
 }
-<button id='toggle-button' onclick='hideAndShow()'>Show</button>
+
 
 export default EscolhaNovamente
