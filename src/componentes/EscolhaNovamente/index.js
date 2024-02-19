@@ -35,7 +35,7 @@ const EscolhaNovamenteIcone = styled.img`
 `
 
 function EscolhaNovamente() {
-  const [show,setShow]=useState(true)
+  const [show,setShow]=useState(!true)
     return (
         <EscolhaNovamenteContainer className='hithere'>
             <EscolhaNovamenteIcone
