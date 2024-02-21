@@ -1,7 +1,30 @@
 import styled from 'styled-components'
-import './estilo.css'
 import PikachuTail from '../../imagens/pikachu-tail.png'
 
+
+const html = document.getElementsByName('htmldata-pokemon').value
+
+function Bush() {
+    if (html === 'pikachu'){
+    return (
+        <BushContainer>
+            <img src={PikachuTail}
+            alt='pikachu tail'
+            className='hinge'
+             />
+        </BushContainer>
+    )
+    } else {
+        return (
+            <BushContainer>
+                <img src={PikachuTail}
+                alt='pikachu tail'
+                className='hinge'
+                 />
+            </BushContainer>
+        )
+    }
+}
 const BushContainer = styled.div`
     width: 100vw;
     height: 15vh;
@@ -12,17 +35,13 @@ const BushContainer = styled.div`
         margin-top: 6vh;
         margin-left: 5vw;
     }
+
+    width: 100vw;
+    background-image: url("../../imagens/bush.png");
+    background-size: contain;
+
 `
 
-function Bush() {
-    return (
-        <BushContainer className="bushFooter">
-            <img src={PikachuTail}
-            alt='pikachu tail'
-            className='hinge'
-             />
-        </BushContainer>
-    )
-}
-
 export default Bush
+
+

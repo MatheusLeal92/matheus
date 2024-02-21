@@ -78,7 +78,7 @@
   
 
   .hithere {
-    animation: hithere 5s linear infinite;
+    animation: hithere 8s linear infinite;
   }
   @keyframes hithere {
     0% { transform: scale(1); }

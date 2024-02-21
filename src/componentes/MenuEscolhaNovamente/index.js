@@ -27,7 +27,7 @@ const html = document.querySelector('html')
 
 function menuEscolhaNovamente() {
 return(
-    <MenuEscolhaNovamente>
+    <MenuEscolhaNovamente >
         <Link className='inicial-home' onClick={CharmanderCor}>
             <img src= {charmander} alt='charmander'/>
         </Link>

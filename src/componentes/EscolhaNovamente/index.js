@@ -9,11 +9,6 @@ const EscolhaNovamenteContainer = styled.div`
   align-items: center;
   flex-direction: column;
   min-width: 120px;
-  
-  
-  &:hover {
-  animation: none;
-  }
 
   @media only screen and (max-width: 787px) {
     padding-top: 2vh;
@@ -27,6 +22,8 @@ const EscolhaNovamenteIcone = styled.img`
   
   &:hover {
     transform: scale(1.1);
+    animation: none;
+
   }
 
   @media only screen and (max-width: 787px) {
@@ -37,10 +34,10 @@ const EscolhaNovamenteIcone = styled.img`
 function EscolhaNovamente() {
   const [show,setShow]=useState(!true)
     return (
-        <EscolhaNovamenteContainer className='hithere'>
+        <EscolhaNovamenteContainer >
             <EscolhaNovamenteIcone
             onClick={()=>setShow(!show)}
-            className='EscolhaNovamente'
+            className='EscolhaNovamente hithere'
             src={EscolhaNovamenteImagem}
             alt='Escolha novamente'/>
           {

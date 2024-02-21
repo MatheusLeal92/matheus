@@ -1,6 +1,6 @@
 import './Home.css';
-import StarterPokemonCard from '../componentes/StarterPokemonCard';
 import TituloDaHome from '../componentes/TituloDaHome'
+import StarterPokemonCards from '../componentes/StarterPokemonCard';
 
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
           <TituloDaHome/> 
         </div>
         <div className='pokemon fadeInDown'>
-        <StarterPokemonCard />
+          <StarterPokemonCards />
         </div>
       </header>
   );
