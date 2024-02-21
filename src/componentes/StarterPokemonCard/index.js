@@ -20,7 +20,7 @@ export default function StarterPokemonCards(props) {
 function StarterPokemonCard({pokemon}) {
     return(
     <Link className='inicial-home' to="/sobre" onClick={SetPokemonColor(pokemon)}>
-        <img src= {process.env.PUBLIC_URL + `/public/images/${pokemon}.png`} alt={pokemon} />
+        <img src= {process.env.PUBLIC_URL + `/images/${pokemon}.png`} alt={pokemon} />
     </Link>
     )
 }
