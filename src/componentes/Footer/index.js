@@ -41,9 +41,7 @@ const ContatosFooter = styled.div`
 function Footer() {
     return (
         <FooterContainer>
-            <Bush>
-
-            </Bush>
+            <Bush />
             <ContatosFooter className="contatosFooter" >
                 <Contato href="https://wa.me/5548988778269" target="_blank">
                     <WhatsAppLogo />
