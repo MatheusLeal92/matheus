@@ -10,6 +10,7 @@ import Sobre from './rotas/Sobre'
 import Skills from './rotas/Skills'
 import Projetos from './rotas/Projetos'
 import Contato from './rotas/Contato'
+import Footer from './componentes/Footer';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -43,6 +44,7 @@ root.render(
         <Route path="/projetos" element={<Projetos />} />
         <Route path="/contato" element={<Contato />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

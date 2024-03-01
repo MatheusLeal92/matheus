@@ -1,3 +1,9 @@
+[data-pokemon=""] {
+    Footer {
+        display: none;
+    }
+}
+
 [data-pokemon="charmander"] {
     footer .Logo {
         fill: #FFD67C;
